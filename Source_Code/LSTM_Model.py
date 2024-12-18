@@ -3,7 +3,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Load the trained model
-model = load_model('gesture_recognition_model.h5')
+model = load_model('gesture_recognition_model.keras')
 
 # Example function to preprocess input data and make predictions
 def preprocess_input(data, time_steps=10):
